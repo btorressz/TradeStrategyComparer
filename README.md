@@ -84,4 +84,12 @@ A sophisticated Python Flask web application for simulating and comparing tradin
 - **Execution Efficiency**: Success rates and timing analysis
 - **Price Tracking**: Real-time price monitoring and logging
 
+  ## 🛠️ Technical Stack
+
+- **Backend**: Flask, Gunicorn, Python 3.11
+- **Frontend**: Bootstrap 5, Chart.js, Custom CSS
+- **Data**: Pandas, NumPy, CSV logging
+- **Visualization**: Matplotlib, Base64 encoding
+- **API**: Jupiter DEX aggregator
+
 
