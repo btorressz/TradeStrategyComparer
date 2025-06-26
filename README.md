@@ -76,3 +76,12 @@ A sophisticated Python Flask web application for simulating and comparing tradin
 - Waits for favorable market conditions
 - Optimizes for execution efficiency
 
+  
+## 📊 Performance Metrics
+
+- **Cumulative Performance**: Total input/output comparison
+- **Slippage Analysis**: Average and per-trade slippage tracking
+- **Execution Efficiency**: Success rates and timing analysis
+- **Price Tracking**: Real-time price monitoring and logging
+
+
