@@ -134,4 +134,15 @@ The application uses Jupiter's quote API for real-time SOL/USDC pricing:
 - **Smooth Animations**: CSS transitions and loading states
 - **Professional UI**: Clean, modern interface
 
+  
+## 📊 Data Export
+
+Trade data includes:
+- Timestamp and bot type
+- Input/output amounts and symbols
+- Expected vs actual output
+- Slippage percentage
+- Execution price
+- Success status
+
 
