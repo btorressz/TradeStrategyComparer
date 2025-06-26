@@ -62,3 +62,17 @@ A sophisticated Python Flask web application for simulating and comparing tradin
 - **Data Logger**: CSV persistence with in-memory caching
 - **Chart Generator**: Matplotlib visualizations with dark theme
 - **Bootstrap Frontend**: Responsive UI with live updates
+
+  
+### Trading Strategies
+
+#### TWAP Bot
+- Executes trades at fixed 5-minute intervals
+- Provides consistent market exposure
+- Ideal for dollar-cost averaging approach
+
+#### Smart Bot
+- Only executes when slippage < 0.2% (configurable)
+- Waits for favorable market conditions
+- Optimizes for execution efficiency
+
