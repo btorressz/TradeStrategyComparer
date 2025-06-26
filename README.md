@@ -50,3 +50,15 @@ A sophisticated Python Flask web application for simulating and comparing tradin
    - Compare strategy effectiveness
    - Download trade data as CSV
    - Review execution insights
+
+
+## 🏗️ Architecture
+
+### Core Components
+
+- **Flask Backend**: RESTful API with real-time endpoints
+- **Jupiter API Integration**: Live SOL/USDC market data
+- **Trading Bots**: Object-oriented strategy implementations
+- **Data Logger**: CSV persistence with in-memory caching
+- **Chart Generator**: Matplotlib visualizations with dark theme
+- **Bootstrap Frontend**: Responsive UI with live updates
