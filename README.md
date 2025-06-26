@@ -145,4 +145,7 @@ Trade data includes:
 - Execution price
 - Success status
 
+## 📄 License
+
+This project is open source and available under the MIT License.
 
