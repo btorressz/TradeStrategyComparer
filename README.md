@@ -125,4 +125,13 @@ The application uses Jupiter's quote API for real-time SOL/USDC pricing:
 - **Fallback**: Simulated pricing when API unavailable
 - **Slippage**: Configurable tolerance (default: 0.5%)
 
+  
+## 🎨 Design Features
+
+- **Dark Theme**: Custom Bootstrap 5 implementation
+- **Responsive Layout**: Mobile-friendly design
+- **Live Charts**: Real-time performance visualization
+- **Smooth Animations**: CSS transitions and loading states
+- **Professional UI**: Clean, modern interface
+
 
