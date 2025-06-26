@@ -92,4 +92,18 @@ A sophisticated Python Flask web application for simulating and comparing tradin
 - **Visualization**: Matplotlib, Base64 encoding
 - **API**: Jupiter DEX aggregator
 
+  
+## 🔧 Configuration
+
+### Environment Variables
+- `SESSION_SECRET`: Flask session management (auto-generated)
+- `DATABASE_URL`: PostgreSQL connection (available but unused)
+
+### Default Settings
+- **Trade Amount**: 1.0 SOL/USDC
+- **TWAP Interval**: 5 minutes
+- **Smart Bot Threshold**: 0.2% slippage
+- **Simulation Duration**: 60 minutes
+- **Update Frequency**: 2 seconds
+
 
