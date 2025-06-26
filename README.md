@@ -106,4 +106,15 @@ A sophisticated Python Flask web application for simulating and comparing tradin
 - **Simulation Duration**: 60 minutes
 - **Update Frequency**: 2 seconds
 
+  
+## 📈 API Endpoints
+
+- `GET /` - Main dashboard
+- `POST /start-simulation` - Begin trading simulation
+- `GET /simulation` - Real-time monitoring dashboard
+- `GET /api/simulation-status` - Live performance data
+- `POST /stop-simulation` - Halt active simulation
+- `GET /results` - Performance analysis and charts
+- `GET /download-csv` - Export trade data
+
 
