@@ -117,4 +117,12 @@ A sophisticated Python Flask web application for simulating and comparing tradin
 - `GET /results` - Performance analysis and charts
 - `GET /download-csv` - Export trade data
 
+  ## 🌐 Jupiter API Integration
+
+The application uses Jupiter's quote API for real-time SOL/USDC pricing:
+- **Endpoint**: `https://quote-api.jup.ag/v6/quote`
+- **Rate Limiting**: 1-second intervals
+- **Fallback**: Simulated pricing when API unavailable
+- **Slippage**: Configurable tolerance (default: 0.5%)
+
 
