@@ -25,3 +25,28 @@ A sophisticated Python Flask web application for simulating and comparing tradin
   - Historical trade logging
   - Time series performance data
   - Statistical summaries
+
+
+### Usage
+
+1. **Configure Trading Parameters**
+   - Set trade amount (default: 1.0)
+   - Choose trading direction (SOL↔USDC)
+   - Set slippage threshold for Smart Bot (default: 0.2%)
+   - Configure simulation duration (default: 60 minutes)
+
+2. **Start Simulation**
+   - Both bots run in parallel
+   - TWAP Bot executes every 5 minutes
+   - Smart Bot executes when conditions are favorable
+
+3. **Monitor Performance**
+   - Real-time dashboard updates every 2 seconds
+   - Live charts show cumulative performance
+   - Track trade statistics as they happen
+
+4. **Analyze Results**
+   - View detailed performance charts
+   - Compare strategy effectiveness
+   - Download trade data as CSV
+   - Review execution insights
