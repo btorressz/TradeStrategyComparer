@@ -147,4 +147,10 @@ Trade data includes:
 
 ## 📄 License
 - This project is open source and available under the **MIT License.**
+  
+
+## 📸 Screenshots
+
+![TradeStrategyComparer Screenshot](https://github.com/btorressz/TradeStrategyComparer/blob/main/TradeStrategyComparer1.jpg?raw=true)
+
 
