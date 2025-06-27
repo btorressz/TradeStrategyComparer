@@ -1,0 +1,2 @@
+timestamp,bot_type,trade_direction,input_amount,input_symbol,output_received,output_symbol,expected_output,slippage_percent,price,success
+2025-06-25T20:47:07.248270,TWAPBot,SOL_TO_USDC,1.0,SOL,143.68482663674615,USDC,144.524293,0.5808479293192932,143.68482663674615,True

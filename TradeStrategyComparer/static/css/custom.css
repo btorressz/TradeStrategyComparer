@@ -1,0 +1,330 @@
+/* Custom styles for TWAP vs Smart Quote Trading Bot */
+/* Independent dark theme implementation */
+
+:root {
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-body-bg: #0d1117;
+    --bs-body-color: #c9d1d9;
+    --bs-border-color: #30363d;
+    
+    --primary-green: #00ff88;
+    --primary-red: #ff6b6b;
+    --accent-blue: #4ecdc4;
+    --dark-bg: #161b22;
+    --card-bg: #21262d;
+    --text-light: #e0e0e0;
+    --border-color: #30363d;
+}
+
+/* Dark theme base styles */
+body {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-success {
+    background-color: var(--bs-success);
+    border-color: var(--bs-success);
+}
+
+.btn-danger {
+    background-color: var(--bs-danger);
+    border-color: var(--bs-danger);
+}
+
+.btn-outline-secondary {
+    color: var(--bs-body-color);
+    border-color: var(--border-color);
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--border-color);
+    border-color: var(--border-color);
+    color: #ffffff;
+}
+
+.form-control {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+    color: var(--bs-body-color);
+}
+
+.form-control:focus {
+    background-color: var(--card-bg);
+    border-color: var(--bs-primary);
+    color: var(--bs-body-color);
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.form-select {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+    color: var(--bs-body-color);
+}
+
+.form-select:focus {
+    background-color: var(--card-bg);
+    border-color: var(--bs-primary);
+    color: var(--bs-body-color);
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.alert-info {
+    background-color: rgba(13, 202, 240, 0.1);
+    border-color: var(--bs-info);
+    color: var(--bs-info);
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* Status indicator animation */
+.status-indicator {
+    position: relative;
+}
+
+.status-indicator .fa-circle.text-success {
+    animation: pulse-success 2s infinite;
+}
+
+@keyframes pulse-success {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Stat cards styling */
+.stat-card {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background: var(--card-bg);
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    border-color: var(--bs-primary);
+    transform: translateY(-2px);
+}
+
+.stat-icon {
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+.stat-content {
+    flex: 1;
+}
+
+.stat-label {
+    font-size: 0.875rem;
+    color: var(--bs-secondary);
+    margin-bottom: 0.25rem;
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-light);
+}
+
+/* Bot statistics styling */
+.bot-stats .stat-item {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.bot-stats .stat-item:last-child {
+    border-bottom: none;
+}
+
+.bot-stats .stat-label {
+    font-size: 0.875rem;
+    color: var(--bs-secondary);
+    margin-bottom: 0.25rem;
+}
+
+.bot-stats .stat-value {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-light);
+}
+
+/* Chart container */
+#real-time-chart {
+    height: 400px !important;
+}
+
+/* Progress bar customization */
+.progress {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+}
+
+.progress-bar {
+    transition: width 0.6s ease;
+}
+
+/* Insights section */
+.insights {
+    padding: 1rem 0;
+}
+
+.insight-item {
+    padding: 1rem;
+    background: var(--card-bg);
+    border-radius: 0.5rem;
+    border: 1px solid var(--border-color);
+    margin-bottom: 1rem;
+}
+
+.insight-item:last-child {
+    margin-bottom: 0;
+}
+
+.insight-item h6 {
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+}
+
+.insight-item p {
+    color: var(--bs-secondary);
+}
+
+/* Card hover effects */
+.card:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s ease;
+}
+
+/* Button styling */
+.btn {
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+/* Badge styling */
+.badge {
+    font-size: 0.875rem;
+    padding: 0.5rem 0.75rem;
+}
+
+/* Alert styling */
+.alert {
+    border-radius: 0.5rem;
+    border: none;
+}
+
+/* Table styling for results */
+.table-dark {
+    --bs-table-bg: var(--card-bg);
+}
+
+/* Loading spinner */
+.spinner-border-sm {
+    width: 1rem;
+    height: 1rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .stat-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .stat-icon {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+    
+    .stat-value {
+        font-size: 1.25rem;
+    }
+    
+    #real-time-chart {
+        height: 300px !important;
+    }
+}
+
+/* Animation for success states */
+.text-success {
+    animation: glow-success 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow-success {
+    from {
+        text-shadow: 0 0 5px var(--bs-success);
+    }
+    to {
+        text-shadow: 0 0 10px var(--bs-success), 0 0 15px var(--bs-success);
+    }
+}
+
+/* Chart styling */
+canvas {
+    border-radius: 0.5rem;
+}
+
+/* Footer styling */
+footer {
+    background-color: var(--card-bg);
+    color: var(--bs-secondary);
+}
+
+/* Header styling */
+header {
+    background: linear-gradient(135deg, var(--card-bg) 0%, var(--border-color) 100%);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--card-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--bs-secondary);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--bs-primary);
+}
