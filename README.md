@@ -153,4 +153,7 @@ Trade data includes:
 
 ![TradeStrategyComparer Screenshot](https://github.com/btorressz/TradeStrategyComparer/blob/main/TradeStrategyComparer1.jpg?raw=true)
 
+![TradeStrategyComparer Screenshot](https://github.com/btorressz/TradeStrategyComparer/blob/main/TradeStrategyComparer2.jpg?raw=true)
+
+
 
